@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Gamaitaly</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Boosted core CSS -->
+  <link href="../assets/dist/css/boosted.rtl.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/carousel.rtl.css" rel="stylesheet">
+</head>
+
+<body onload="JavaScript:TimedRefresh(150000);">
+
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+		<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true"
+			aria-label="Slide 1"></button>
+		<button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-current="true"
+			aria-label="Slide 2"></button>
+		<button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-current="true"
+			aria-label="Slide 3"></button>
+		<button type="button" data-bs-target="#demo" data-bs-slide-to="3" aria-current="true"
+			aria-label="Slide 4"></button>
+		<button type="button" data-bs-target="#demo" data-bs-slide-to="4" aria-current="true"
+			aria-label="Slide 5"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <iframe class="embed-responsive-item" width="100%" height="690"
+          src="http://192.168.40.9/sfc/dashboard/linha/v10/?linha=001" frameborder="0">
+        </iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe class="embed-responsive-item" width="100%" height="690"
+          src="http://192.168.40.9/sfc/dashboard/linha/v10/?linha=002" frameborder="0">
+        </iframe>
+      </div>
+	  <div class="carousel-item">
+        <iframe class="embed-responsive-item" width="100%" height="690"
+          src="http://192.168.40.9/sfc/dashboard/linha/v10/?linha=003" frameborder="0">
+        </iframe>
+      </div>
+	  <div class="carousel-item">
+        <iframe class="embed-responsive-item" width="100%" height="690"
+          src="http://192.168.40.9/sfc/dashboard/linha/v8/" frameborder="0">
+        </iframe>
+      </div>
+	   
+					<!-- ANIVERSARIANTE -->
+	  
+	   <div class="carousel-item">
+			<div class="text-center"  >
+				<iframe class="embed-responsive-item" width="100%" height="690"
+					src="aniversariante.php" frameborder="0">
+				</iframe>
+			</div>
+	  </div>
+	  
+					<!--- AVISO RH -->
+	  
+		<!--<div class="carousel-item "> 
+			<div class="text-center"  >
+				<img src="imagens/Slide-08-07.png" alt="aviso" class="img-fluid"  width="1200" height="690">                  
+			</div>
+		</div>-->
+    </div>
+
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  </div>
+</body>
+<script>
+  function TimedRefresh(t) {
+    setTimeout("location.reload(true);", t);
+
+  }
+</script>
+
+</html>

@@ -1,0 +1,25 @@
+.header-menu{
+	background-color: #cacccf;
+    color: #8f9299;
+    font-size: 18px;
+}
+.espaco-topo{
+    margin-top: 100px;
+    color: #8f9299;
+}
+.logo-small {
+    color: #1aad72;
+    font-size: 50px;
+}
+
+.logo {
+
+    color: #1aad72;
+    font-size: 50px;
+}
+
+
+.item img {
+	margin: auto;
+	max-height:600px; width:auto
+}
